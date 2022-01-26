@@ -1,0 +1,250 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+}
+
+
+.sup{
+    background-color: rgb(44, 44, 44);
+    width: 20px;
+    height: 13px;
+    margin-left: 24rem;
+    position: absolute;
+}
+.sup2{
+    background-color: rgb(44, 44, 44);
+    width: 20px;
+    height: 13px;
+    margin-left: 30rem;
+    position: absolute;
+}
+.sup3{
+    background-color: rgb(44, 44, 44);
+    width: 20px;
+    height: 13px;
+    margin-left: 36rem;
+    position: absolute;
+}
+.sup4{
+    background-color: rgb(44, 44, 44);
+    width: 20px;
+    height: 13px;
+    margin-left: 42rem;
+    position: absolute;
+}
+.sup5{
+    background-color: rgb(44, 44, 44);
+    width: 20px;
+    height: 13px;
+    margin-left: 48rem;
+    position: absolute;
+}
+.sup6{
+    background-color: rgb(44, 44, 44);
+    width: 20px;
+    height: 13px;
+    margin-left: 54rem;
+    position: absolute;
+}
+.sup7{
+    background-color: rgb(44, 44, 44);
+    width: 20px;
+    height: 13px;
+    margin-left: 60rem;
+    position: absolute;
+}
+.sup8{
+    background-color: rgb(44, 44, 44);
+    width: 20px;
+    height: 13px;
+    margin-left: 66rem;
+    position: absolute;
+}
+
+/* This is a Animation a light */
+
+.light{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: magenta;
+    border-radius: 10px 30px 30px;
+    transform: rotate(45deg);
+    margin-left: 379px;
+    margin-top: 15px;
+}
+
+
+.lightAnim{
+    animation: onLight 1s infinite ;
+}
+
+@keyframes onLight {
+    0%{box-shadow: 0}
+    50%{box-shadow: 4px 4px 10px 12px rgba(255, 0, 255, 0.438);}
+    100%{box-shadow: 0}
+}
+
+
+/* This is a Animation a light2 */
+
+.light2{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(229, 255, 0);
+    border-radius: 10px 30px 30px;
+    transform: rotate(45deg);
+    margin-left: 475px;
+    margin-top: 15px;
+}
+
+.lightAnim2{
+    animation: Onlight2 1s infinite 0.2s;
+}
+
+@keyframes Onlight2 {
+    0%{box-shadow: 0}
+    50%{box-shadow: 4px 4px 10px 12px rgba(229, 255, 0, 0.438);}
+    100%{box-shadow: 0}
+}
+
+/* This is a Animation a light3 */
+
+.light3{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(255, 8, 0);
+    border-radius: 10px 30px 30px;
+    transform: rotate(45deg);
+    margin-left: 571px;
+    margin-top: 15px;
+}
+
+.lightAnim3{
+    animation: onlight3 1s infinite;
+}
+
+@keyframes onlight3 {
+    0%{box-shadow: 0}
+    50%{box-shadow: 4px 4px 10px 12px rgba(255, 0, 0, 0.438);}
+    100%{box-shadow: 0}
+}
+
+/* This is a Animation a light4 */
+
+
+.light4{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(1, 240, 248);
+    border-radius: 10px 30px 30px;
+    transform: rotate(45deg);
+    margin-left: 667px;
+    margin-top: 15px;
+}
+
+.lightAnim4{
+    animation: onlight4 1s infinite 0.2s;
+}
+
+@keyframes onlight4 {
+    0%{box-shadow: 0}
+    50%{box-shadow: 4px 4px 10px 12px rgba(1, 240, 248, 0.438);}
+    100%{box-shadow: 0}
+}
+
+/* This is a Animation a light5 */
+
+.light5{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(89, 0, 255);
+    border-radius: 10px 30px 30px;
+    transform: rotate(45deg);
+    margin-left: 763px;
+    margin-top: 15px;
+}
+
+.lightAnim5{
+    animation: onlight5 1s infinite;
+}
+
+@keyframes onlight5 {
+    0%{box-shadow: 0}
+    50%{box-shadow: 4px 4px 10px 12px rgba(68, 0, 255, 0.438);}
+    100%{box-shadow: 0}
+}
+
+/* This is a Animation a light6 */
+
+.light6{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(0, 255, 21);
+    border-radius: 10px 30px 30px;
+    transform: rotate(45deg);
+    margin-left: 859px;
+    margin-top: 15px;
+}
+
+.lightAnim6{
+    animation: onlight6 1s infinite 0.2s;
+}
+
+@keyframes onlight6 {
+    0%{box-shadow: 0}
+    50%{box-shadow: 4px 4px 10px 12px rgba(21, 255, 0, 0.438);}
+    100%{box-shadow: 0}
+}
+
+/* This is a Animation a light7 */
+
+.light7{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(255, 115, 0);
+    border-radius: 10px 30px 30px;
+    transform: rotate(45deg);
+    margin-left: 955px;
+    margin-top: 15px;
+}
+
+.lightAnim7{
+    animation: onlight7 1s infinite;
+}
+
+@keyframes onlight7 {
+    0%{box-shadow: 0}
+    50%{box-shadow: 4px 4px 10px 12px rgba(255, 115, 0, 0.438)}
+    100%{box-shadow: 0}
+}
+
+/* This is a Animation a light8 */
+
+.light8{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(0, 4, 255);
+    border-radius: 10px 30px 30px;
+    transform: rotate(45deg);
+    margin-left: 1051px;
+    margin-top: 15px;
+}
+
+.lightAnim8{
+    animation: onlight8 1s infinite 0.2s;
+}
+
+@keyframes onlight8 {
+    0%{box-shadow: 0}
+    50%{box-shadow: 4px 4px 10px 12px rgba(0, 4, 255, 0.438)}
+    100%{box-shadow: 0}
+}
