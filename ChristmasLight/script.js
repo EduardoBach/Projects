@@ -1,6 +1,6 @@
 var btn = document.getElementById("btn")
     btn.addEventListener("click", onLight)
-        function onLight(){
+        function onLight(){ 
             var light = document.getElementById("lighJS")
             var light2 = document.getElementById("light2JS")
             var light3 = document.getElementById("light3JS")
