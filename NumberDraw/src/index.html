@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="../dist/output.css" rel="stylesheet">
+</head>
+<body class="bg-slate-700">
+
+    <h1 style="font-size: 50px;" class="mt-52 text-center text-white font-bold">
+        Number Draw
+      </h1>
+
+      <h1 class="text-center mt-10 text-xl text-cyan-500" id="inpVal">0</h1>
+      <input style=" width: 600px; margin-left: 480px;" class=" absolute mt-10 flex justify-center" value="0" id="input" type="range" min="0" max="1000">
+      <button style="margin-left: 600px;" class=" hover:bg-slate-300 mt-20 absolute p-px rounded-md border-2 bg-white" id="up" type="button" name="button"> << </button>
+      <button style="margin-left: 900px;" class=" hover:bg-slate-300 absolute mt-20 p-px rounded-md border-2 bg-white" id="up2" type="button" name="button"> >> </button>
+    
+      
+      <a id="btn" style="margin-left: 714px;" href="#_" class="relative inline-block mt-20 text-lg group">
+        <span class="relative z-10 block px-5 py-3 overflow-hidden font-medium leading-tight text-gray-800 transition-colors duration-300 ease-out border-2 border-gray-900 rounded-lg group-hover:text-white">
+            <span class="absolute inset-0 w-full h-full px-5 py-3 rounded-lg bg-gray-50"></span>
+            <span class="absolute left-0 w-48 h-48 -ml-2 transition-all duration-300 origin-top-right -rotate-90 -translate-x-full translate-y-12 bg-cyan-500 group-hover:-rotate-180 ease"></span>
+            <span class="relative">Raffle</span>
+        </span>
+        <span class="absolute bottom-0 right-0 w-full h-12 -mb-1 -mr-1 transition-all duration-200 ease-linear bg-gray-900 rounded-lg group-hover:mb-0 group-hover:mr-0" data-rounded="rounded-lg"></span>
+    </a>
+
+    <h1 class="text-cyan-500 font-bold" style="font-size:200px; text-align:center;" id="sorteio">?</h1>
+
+    <script src="./script.js"></script>
+</body>
+</html>
